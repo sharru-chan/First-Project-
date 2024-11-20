@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <style>
+        body {
+  background-color: #fbfbfb;
+}
+@media (min-width: 991.98px) {
+  main {
+    padding-left: 240px;
+  }
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 1;
+  bottom: 1;
+  left: 0;
+  height: 550px;
+  padding: 58px 0 0; /* Height of navbar */
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  width: 270px;
+  z-index: 600;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+.sidebar .active {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+#page-wrapper {
+        
+    padding: 0;
+    background-color: #fff;
+}
+
+@media(min-width:768px) {
+    
+
+    #page-wrapper {
+        padding: 22px 350px;
+    }
+}
+
+.h2{
+    font-family: "Copperplate", fantasy;
+}
+ td {
+  padding: 40px;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Amazon</label>
+        <ul><b>
+            <li><a href="index.html" >Home</a></li>
+            <li><a  href="links.html" >Products</a></li>
+            <li><a href="service.html" >Access Request</a></li>
+        
+            <li><a href="contact.html">Contact</a></li>
+            
+        </b></ul>
+    </nav>
+    <header>
+        <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+            <div class="position-sticky">
+                <div class="list-group list-group-flush mx-3 mt-4">
+                    <a href="links.html" class="list-group-item list-group-item-action py-2 ripple">
+                        <i class="fas fa-chart-line fa-fw me-3"></i><span>Home Appliances</span></a>
+                    <a href="help.html" class="list-group-item list-group-item-action py-2 ripple">
+                        <i class="fas fa-chart-line fa-fw me-3"></i><span>Accessories</span></a>
+                    <a href="OtherLinks.html" class="list-group-item list-group-item-action py-2 ripple">
+                        <i class="fas fa-chart-line fa-fw me-3"></i><span>Computers & Tablets</span></a>
+                    <a href="PasswordLinks.html" class="list-group-item list-group-item-action py-2 ripple">
+                        <i class="fas fa-chart-line fa-fw me-3"></i><span>Toys</span></a>
+                    <a href="CRQLinks.html" class="list-group-item list-group-item-action py-2 ripple">
+                        <i class="fas fa-chart-line fa-fw me-3"></i><span>Fashion</span></a>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="page-wrapper">
+        <h2><b>Products</b></h2>
+        <br>
+        <br>
+        <table>
+            <tr>
+            <th></th>
+            <th></th>
+            <th></th></tr>
+            <tr>
+                <td>
+                    <h4><b><a href="PL1pg1.html">
+                        <span>Groceries</span></a></td></h4></b>
+                <td><h4><b><a href="PL2.html">Medical Care</a>
+                </td></h4></b>
+                <td>
+                   <h4><b><a href="Prod.html"><span>Amazon Basics</span></a>
+                </td></h4></tr></b>
+            </tr>
+        </table>
+    </div>
+</body>
